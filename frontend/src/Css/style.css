@@ -1,0 +1,85 @@
+.background {
+    width: 100%; 
+    height: auto;
+    /* border: 1px solid red; */
+    /* white-space: nowrap;
+    
+    text-align: bottom; margin: 1em 0;
+    background-position: center bottom; 
+    position: relative; */
+
+    /* position:absolute; */
+    /* bottom: 50%; */
+    /* margin-top:-100px; */
+    
+    /* height: 100%;  */
+    /* position: fixed; 
+    left: 0px; 
+    top: 0px; 
+    z-index: -1;  */
+}
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+img{
+    vertical-align: middle;
+}
+.slider {
+    height: 600px;
+}
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  }
+.sitemap {
+    height: 200px;
+    background: black;
+}
+.sitemapnew {
+    height: 500px;
+    background: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333333; */
+    /* width: 30%;
+    text-align: center; */
+    display: flex;
+    justify-content: center;
+  }
+  
+  li {
+    float: left;
+    width: 200px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    /* background-color: #111111; */
+  }
+  #centersitemap{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  #textcenter {
+      text-align: center;
+  }
