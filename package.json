@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node sever.js",
-    "heroku-postbuild": "cd client && npm install --only=dev && npm install &7 npm run build"
   },
   "author": "",
   "license": "ISC",
